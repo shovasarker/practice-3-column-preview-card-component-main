@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  height: 100%;
+  background: #f2f2f2;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  margin: 85px auto;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  overflow: hidden;
+}
+
+.container .cards {
+  width: 325px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container .cards__logo {
+  margin: 35px 0 35px 35px;
+}
+
+.container .cards__heading {
+  margin-left: 35px;
+  font-size: 40px;
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+.container .cards__prgf {
+  margin: 30px 30px 10px 30px;
+  padding: 5px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.container .cards__btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background: #f2f2f2;
+  margin: 15px 0 40px 35px;
+  border: 1.5px solid #f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+  cursor: pointer;
+}
+
+.container .card1 {
+  padding: 10px;
+  background: #e38826;
+}
+
+.container .card1__btn {
+  color: #e38826;
+}
+
+.container .card1__btn:hover {
+  background: #e38826;
+  color: #f2f2f2;
+  border: 1.5px solid #f2f2f2;
+}
+
+.container .card2 {
+  padding: 10px;
+  background: #006970;
+}
+
+.container .card2__btn {
+  color: #006970;
+}
+
+.container .card2__btn:hover {
+  background: #006970;
+  color: #f2f2f2;
+  border: 1.5px solid #f2f2f2;
+}
+
+.container .card3 {
+  padding: 10px;
+  background: #004241;
+}
+
+.container .card3__btn {
+  color: #004241;
+}
+
+.container .card3__btn:hover {
+  background: #004241;
+  color: #f2f2f2;
+  border: 1.5px solid #f2f2f2;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    height: 100vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .container .cards__logo {
+    margin-bottom: 45px;
+  }
+  .container .cards__heading {
+    margin-bottom: 10px;
+  }
+  .container .cards__prgf {
+    margin-bottom: 60px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

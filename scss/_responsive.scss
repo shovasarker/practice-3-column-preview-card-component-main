@@ -1,0 +1,22 @@
+
+@include media-lg {
+    body {
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        flex-direction: row;
+        .cards {
+            &__logo {
+                margin-bottom: 45px;
+            }
+            &__heading {
+                margin-bottom: 10px;
+            }
+            &__prgf {
+                margin-bottom: 60px;
+            }
+        }
+    }
+}

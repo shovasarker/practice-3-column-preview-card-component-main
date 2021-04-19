@@ -1,0 +1,88 @@
+.main {
+    height: 100%;
+    background: $text-color-light-gray;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: 85px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+
+    .cards {
+        width: 325px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        &__logo {
+            margin: 35px 0 35px 35px
+        }
+        &__heading {
+            margin-left: 35px;
+            font-size: 40px;
+            font-family: 'Big Shoulders Display', cursive;
+            color: $text-color-light-gray;
+            text-transform: uppercase;
+        }
+        &__prgf {
+            margin: 30px 30px 10px 30px;
+            padding: 5px;
+            font-family: 'Lexend Deca', sans-serif;
+            color: $text-color-white;
+        }
+        &__btn {
+            width: 150px;
+            height: 50px;
+            border-radius: 25px;
+            background: $text-color-light-gray;
+            margin: 15px 0 40px 35px;
+            border: 1.5px solid $text-color-light-gray;
+            font-family: 'Lexend Deca', sans-serif;
+            cursor: pointer;
+        }
+    }
+    .card1 {
+        padding: 10px;
+        background: $primary-color-orange;
+        &__btn {
+            color: $primary-color-orange;
+            &:hover {
+                background: $primary-color-orange;
+                color: $text-color-light-gray;
+                border: 1.5px solid $text-color-light-gray;
+            }
+        }
+    } 
+    .card2 {
+        padding: 10px;
+        background: $primary-color-cyan;
+        &__btn {
+            color: $primary-color-cyan;
+            &:hover {
+                background: $primary-color-cyan;
+                color: $text-color-light-gray;
+                border: 1.5px solid $text-color-light-gray;
+            }
+        }
+    }
+    .card3 {
+        padding: 10px;
+        background: $primary-color-dark-cyan;
+        &__btn {
+            color: $primary-color-dark-cyan;
+            &:hover {
+                background: $primary-color-dark-cyan;
+                color: $text-color-light-gray;
+                border: 1.5px solid $text-color-light-gray;
+            }
+        }
+    }
+}

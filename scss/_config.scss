@@ -1,0 +1,24 @@
+//Importing Links
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+// Variables Defination
+$primary-color-orange: hsl(31, 77%, 52%);
+$primary-color-cyan: hsl(184, 100%, 22%);
+$primary-color-dark-cyan: hsl(179, 100%, 13%);
+$text-color-white: hsla(0, 0%, 100%, 0.75);
+$text-color-light-gray: hsl(0, 0%, 95%);
+
+
+// Default Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin media-lg {
+    @media  screen and (min-width: 1024px){
+        @content;
+    }
+}
